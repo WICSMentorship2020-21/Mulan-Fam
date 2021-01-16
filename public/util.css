@@ -1,21 +1,29 @@
-#body
-{
-    /** Be sure to use your selected colors */
-    background-color: #051a3f;
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
 }
-
+html{
+    min-height:100%;
+}
 .title
 {
-    background-color: #bccfdf;
+    background-color: #A1EAFB;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
+    display: inline-block;
 }
-
-h1{
-    color: black;
-    text-align: center; 
+.title h1{
+    font-size: 2 em;
+    float: left;
 }
-
-h3{
-    text-align: center; 
+.title h2{
+    font-size: 1 em;
+    display: inline-block;
+}
+.subtitle
+{
+    margin-top: 5px;
+    font-size: 22px;
 }
